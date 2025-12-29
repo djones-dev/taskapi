@@ -41,7 +41,7 @@ public class Task {
     private User user;
 
     // Default constructor for JPA
-    protected Task() {}
+    public Task() {}
 
     public Task(String title, String description, Priority priority) {
         this.title = title;
